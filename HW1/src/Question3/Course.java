@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Course {
     private String courseName;
-    private ArrayList<Instructor> instructor = new ArrayList<Instructor>();
-    private ArrayList<Textbook> textbook = new ArrayList<Textbook>();
+    private ArrayList<Instructor> instructor = new ArrayList<>();
+    private ArrayList<Textbook> textbook = new ArrayList<>();
 
     public Course(){
         courseName = "";
@@ -34,11 +34,12 @@ public class Course {
         System.out.println("Course Name: " + courseName);
         for(Instructor instructor : instructor){
             System.out.println("Instructor: " + instructor.getFirstName() + " " + instructor.getLastName());
-            System.out.println("Office Number: " + instructor.getOfficeNumber());
+            System.out.println("\tOffice Number: " + instructor.getOfficeNumber());
         }
         for(Textbook textbook : textbook){
             System.out.println("Textbook: " + textbook.getTitle() + " by " + textbook.getAuthor());
         }
+        System.out.println();
     }
 
 }

@@ -5,7 +5,8 @@ public class EmployeeDriver {
     public static void main(String[] args) {
 
         SalariedEmployee Joe =
-                new SalariedEmployee("Joe", "Jones", 111111111,
+                new SalariedEmployee(
+                        "Joe", "Jones", 111111111,
                         2500);
 
         HourlyEmployee Stephanie =
