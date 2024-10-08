@@ -14,6 +14,7 @@ object "<u>rcm:Textbook</u>" as book{
 
 object "<u>CS5800:Course</u>" as course{
     name = "CS5800 - Advanced Software Engineering"
+    ' TODO
 }
 
 course <-- book

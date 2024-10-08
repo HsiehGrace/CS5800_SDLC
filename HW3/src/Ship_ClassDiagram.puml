@@ -17,11 +17,11 @@ object "<u>evergiven:CargoShip</u>" as ship3{
     cargoCapacityInTonnage = 220940
 }
 
-object "Ships" as ships{
+map "Ships" as ships{
+0 *-> ship1
+1 *--> ship2
+2 *--> ship3
 }
 
-ships <-- ship1
-ships <-- ship2
-ships <-- ship3
 
 @enduml
