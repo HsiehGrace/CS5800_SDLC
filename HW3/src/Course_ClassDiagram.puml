@@ -17,7 +17,7 @@ object "<u>CS5800:Course</u>" as course{
     ' TODO
 }
 
-course <-- book
-course <-- instructor
+course --> book
+course --> instructor
 
 @enduml

@@ -14,9 +14,9 @@ object "<u>remoteFiles:Folder</u>" as rf{
     name = "Remote Files"
 }
 
-head <-- sf
-head <-- ip
-head <-- rf
+head --> sf
+head --> ip
+head --> rf
 
 object "<u>phalcon:Folder</u>" as ph{
     name = ".phalcon"
@@ -28,9 +28,9 @@ object "<u>public:Folder</u>" as pu{
     name = "public"
 }
 
-sf <-- ph
-sf <-- ca
-sf <-- pu
+sf --> ph
+sf --> ca
+sf --> pu
 
 object "<u>htaccess:File</u>" as hta{
     name = ".htaccess"
@@ -42,9 +42,9 @@ object "<u>index:File</u>" as index{
     name = "index.html"
 }
 
-pu <-- hta
-pu <-- htr
-pu <-- index
+pu --> hta
+pu --> htr
+pu --> index
 
 
 
