@@ -1,4 +1,4 @@
-package Macronutrients;
+package CS5800.Macronutrients;
 
 public class FoodDriver {
     public static void main(String[] args) {
