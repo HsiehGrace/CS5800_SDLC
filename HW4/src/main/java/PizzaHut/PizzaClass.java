@@ -1,4 +1,4 @@
-package CS5800.PizzaHut;
+package PizzaHut;
 
 import java.util.ArrayList;
 

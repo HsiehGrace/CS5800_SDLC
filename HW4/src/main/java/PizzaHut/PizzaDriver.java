@@ -1,8 +1,8 @@
-package CS5800.PizzaHut;
+package PizzaHut;
 
 import java.util.ArrayList;
 import java.util.Random;
-import CS5800.PizzaHut.PizzaClass.*;
+import PizzaHut.PizzaClass.*;
 
 public class PizzaDriver {
 

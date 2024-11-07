@@ -1,4 +1,4 @@
-package CS5800.Macronutrients;
+package Macronutrients;
 
 import java.util.Random;
 
