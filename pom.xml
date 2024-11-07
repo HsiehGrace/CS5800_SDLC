@@ -9,6 +9,9 @@
     <version>1.0</version>
 
     <packaging>pom</packaging>
+    <modules>
+        <module>HW6</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
