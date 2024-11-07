@@ -8,12 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CS5800_SDLC" />
         <module name="HW1" />
+        <module name="HW4" />
         <module name="HW3" />
         <module name="HW5" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="HW4" target="22" />
-    </bytecodeTargetLevel>
   </component>
 </project>

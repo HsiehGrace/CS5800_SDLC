@@ -1,6 +1,7 @@
 package Restaurant;
 
 import Restaurant.FoodBuilder.*;
+
 import java.util.ArrayList;
 
 public class Order {
@@ -20,10 +21,18 @@ public class Order {
         foodList.add(food);
     }
 
-    public void printOrder(){
-        for (Food food : foodList){
-            System.out.println(food.getDescription());
+    public String printOrder(){
+
+        if (foodList.isEmpty()){
+            return "No food";
         }
+
+        String fullOrder = "";
+        for (Food food : foodList){
+            fullOrder += "\n" + food.getDescription();
+        }
+
+        return fullOrder;
     }
 
     public double totalCost(){
@@ -33,6 +42,7 @@ public class Order {
             total += food.getCost();
         }
 
-        return total;
+        // Rounding Double to two decimals
+        return (double)Math.round(total * 100d) / 100d;
     }
 }
