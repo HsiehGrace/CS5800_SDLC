@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>CS5800</groupId>
     <artifactId>HW3</artifactId>
-    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>CS5800_SDLC</groupId>
+        <artifactId>CS5800_SDLC</artifactId>
+        <version>1.0</version>
+    </parent>
+
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>

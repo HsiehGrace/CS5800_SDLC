@@ -1,6 +1,6 @@
 package Restaurant;
 
-public class Restaurant {
+public class FoodBuilder {
 
     public interface Food {
         String getDescription();

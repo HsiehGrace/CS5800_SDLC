@@ -6,6 +6,7 @@
 
     <groupId>CS5800_SDLC</groupId>
     <artifactId>CS5800_SDLC</artifactId>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
