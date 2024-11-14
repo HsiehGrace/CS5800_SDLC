@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CS5800_SDLC" />
         <module name="HW1" />
         <module name="HW4" />
         <module name="HW3" />
+        <module name="HW6" />
         <module name="HW5" />
       </profile>
     </annotationProcessing>
