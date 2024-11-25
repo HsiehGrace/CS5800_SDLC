@@ -3,32 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>CS5800_SDLC</groupId>
+        <artifactId>CS5800_SDLC</artifactId>
+        <version>1.0</version>
+    </parent>
 
-    <groupId>CS5800_SDLC</groupId>
-    <artifactId>CS5800_SDLC</artifactId>
-    <version>1.0</version>
-
-    <packaging>pom</packaging>
-    <modules>
-        <module>HW6</module>
-        <module>HW7</module>
-        <module>HW8</module>
-    </modules>
+    <artifactId>HW8</artifactId>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.11.3</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
 
 </project>
