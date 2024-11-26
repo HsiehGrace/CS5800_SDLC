@@ -1,0 +1,7 @@
+@startuml
+
+object "Document" as testDocument {
+}
+
+
+@enduml
